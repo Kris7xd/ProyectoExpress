@@ -22,30 +22,3 @@ client.connect((error) => {
 });
 
 module.exports = client;
-
-
-
-/*const mysql = require('mysql2');
-
-const connection = mysql.createConnection({
-
-    host: 'localhost',
-    port: 3308,
-    user: 'root',
-    password: '1234',
-    databse: 'ProyectoExpress'
-
-});
-
-connection.connect((error) => {
-
-    if (error) {
-        console.log('Error conectado con la base de datos', error)
-        return
-    } else {
-        console.log('Conectado a la base de datos');
-    }
-
-});
-
-module.exports = connection;*/
